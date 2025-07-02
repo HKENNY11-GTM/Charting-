@@ -14,7 +14,7 @@ body{
 }
 .colors{
     border: 1px solid #8838FF;
-    height: 75vh;
+    height: 450px;
     width: 60%;
     border-bottom-right-radius: 900px;
     /* background-color: hsl(271, 66%, 50%); */
@@ -299,11 +299,22 @@ body{
 } */
 @media screen and (min-width: 768px){
     .mobile{
-        left: 270px;
+        left: 70px;
     }
     .colors{
         border-bottom-right-radius: 800px;
         height: 90vh;
     }
+   .container{
+    display: flex;
+   }
+   .jipo{
+    left: 200px;
+    right: 15px;
+   }
+   .walker{
+    line-height: 1;
+    text-align: start;
+   }
 }   
 
