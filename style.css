@@ -12,6 +12,12 @@ body{
 .container{
     width: 80%;
 }
+.screen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .colors{
     border: 1px solid #8838FF;
     height: 450px;
